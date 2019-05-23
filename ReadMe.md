@@ -16,3 +16,6 @@ So at the end all you have to do is publish the dist folder to your webhosting s
 - `npm run dev` -- wil do a one time dev run
 - `npm run watch` -- wil run in the background and do a dev build upon file change
 - `npm run build` -- wil do a one time build run and minify js and css files
+
+
+Testing Git Forking
