@@ -5,14 +5,20 @@ Encore
   .setOutputPath('dist/')
   .setPublicPath('/')
   .cleanupOutputBeforeBuild()
-  // .autoProvidejQuery({
-  //   'window.jQuery': 'jquery'
-  // })
+  .disableSingleRuntimeChunk()
   .enableSassLoader(function (sassOptions) {}, {
     resolveUrlLoader: false
   })
-  .enablePostCssLoader((options) => { options.config = { path: 'postcss.config.js' } })
-  .createSharedEntry('js/common', ['jquery'])
+  .enablePostCssLoader((options) => {
+    options.config = {
+      path: 'postcss.config.js'
+    }
+  })
+  .autoProvidejQuery({
+    $: 'jquery',
+    jQuery: 'jquery',
+    'window.jQuery': 'jquery'
+  })
   .addEntry('js/app', './src/js/app.js')
   .addStyleEntry('css/app', ['./src/scss/app.scss'])
   .addPlugin(new CopyWebpackPlugin([
