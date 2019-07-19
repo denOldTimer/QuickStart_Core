@@ -36,7 +36,7 @@ It handles compression of Js and Scss files and copies them to a dist folder. It
 - 2.1.0 - [15-05-2019] Dependency Updates
 - 2.2.0 - [17-05-2019] Scss files added
 - 2.2.1 - [18-05-2019] Webpack SingleRunTime Error
-- 2.3.0 - [18-05-2019] Dependency Updates
+- 2.3.0 - [19-06-2019] Dependency Updates
 
 ## Updates
 
