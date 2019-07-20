@@ -22,12 +22,12 @@ It handles compression of Js and Scss files and copies them to a dist folder. It
 
 [greenkeeper-url]: https://greenkeeper.io/
 [greenkeeper-image]: https://badges.greenkeeper.io/scQuickstart/Quickstart_Core.svg?style=flat-square
-[travis-url]: https://travis-ci.org/ScorpioCoding/Quickstart_basic
-[travis-image]: https://travis-ci.org/ScorpioCoding/Quickstart_basic.svg?branch=master
-[dep-url]: https://david-dm.org/ScorpioCoding/Quickstart_basic
-[dep-image]: https://david-dm.org/ScorpioCoding/Quickstart_basic/status.svg?style=flat
-[devdep-url]: https://david-dm.org/ScorpioCoding/Quickstart_basic?type=dev
-[devdep-image]: https://david-dm.org/ScorpioCoding/Quickstart_basic/dev-status.svg?style=flat
+[travis-url]: https://travis-ci.org/scQuickstart/Quickstart_Core
+[travis-image]: https://travis-ci.org/scQuickstart/Quickstart_Core.svg?branch=master
+[dep-url]: https://david-dm.org/scQuickstart/Quickstart_Core
+[dep-image]: https://david-dm.org/scQuickstart/Quickstart_Core/status.svg?style=flat
+[devdep-url]: https://david-dm.org/scQuickstart/Quickstart_Core?type=dev
+[devdep-image]: https://david-dm.org/scQuickstart/Quickstart_Core/dev-status.svg?style=flat
 
 ## Version Control
 
